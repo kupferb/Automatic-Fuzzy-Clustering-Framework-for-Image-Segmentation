@@ -50,9 +50,9 @@ gamma=(rho).*(delta);
 %the one is peaks, the other is non-peaks. The number of peaks is k
 [gamma2,idx2]=sort(gamma,'descend');
 Gamma=normalized(gamma2);
-figure,plot(Gamma,'s')
-xlabel ('n')
-ylabel ('\gamma')
+% figure,plot(Gamma,'s')
+% xlabel ('n')
+% ylabel ('\gamma')
 
 Data=Gamma';
 psi=1000;   
